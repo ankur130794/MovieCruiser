@@ -2,7 +2,7 @@ pipeline {
     agent any
 
    environment {
-        MYSQL_URL=localhost
+        MYSQL_URL='172.23.238.168'
     }
 
    stages {
